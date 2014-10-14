@@ -137,7 +137,7 @@ void calibracao_automatica() {
         calib_auto = false;
 
         //Tira a média dos valores lidos e armazena na variável final
-        valor_medio_ldr = (valor_medio_ldr / CALIB_PRECISION) + CALIB_ERROR_MARGIN;
+        valor_medio_ldr = (valor_medio_ldr / CALIB_PRECISION) + CALIB_ERROR_MARGIN);
 
         Serial.print("\nDinamic Valor Medio: ");
         Serial.print(valor_medio_ldr);
